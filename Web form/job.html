@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Job Application</title>
+
+</head>
+<body>
+<table width="100%">
+<tr>
+<td width="10%"></td>
+  <td align="right" width ="80%">
+    				<nav>
+					<a href="home.html">Home</a> |
+					<a href="job.html">Job</a> |
+					<a href="feedback.html">Feedback</a> |
+					<a href="reservation.html#reservation">Reservation</a> |
+					<a href="reservation.html#pizza">Pizza Delivery</a>
+				</nav>
+  </td>
+
+</tr>
+<tr>
+<td width="10%"></td>
+
+<td>
+<h1 align="center">Job Application Form</h1>
+<p align="center">Please fill the following application form so you could apply for the job on our computer company</p> 
+
+
+  <form action="submit" method="GET">
+      
+      <label for="position">Position applied for*:</label><br>
+     <input type="text" id="position" name="position" autofocus required><br>
+      <label for="fname">Full name*:</label><br>
+     <input type="text" id="fname" name="fname" maxlength="50" required><br>
+     <label for="nationality">Nationality*:</label><br>
+     <input type="text" id="nationality" name="nationality" required><br>
+     <label for="date">Date of Birth*:</label><br>
+     <input type="date" id="date" name="date" required><br>
+
+     <label for="phone">Phone number*:</label><br>
+     <input type="tel" id="phone" name="phone"  value="+251" required><br>
+     <label for="email">Email*:</label><br>
+     <input type="email" id="email" name="email" required><br>
+    <label for="upload">Educational History and Qualifications*:</label><br>
+     <input type="file" id="email" name="email" required><br>
+    <label for="exp">Work expericence/employment/training*:</label><br>
+     <input type="range" name="exp" max="10" required><br>
+     <label for="personal_statement">Personal Statement*:</label><br>
+    <textarea id="personal_statement" name="personal_statement" required></textarea><br>
+     <button type="submit">Submit</button>
+    
+  </form>
+     </td>
+   </tr>
+</table>
+   <h2 align="center">Add two refrees</h2>
+      <table width="40%" align="center">
+     <tr>
+    <td width="10%"></td>
+  
+     <td >
+  
+     <form action="submit" method="GET">
+    <fieldset>
+     <legend>First Refree</legend>
+     <label for="name">Name:</label><br>
+     <input type="text" name="name"  ><br>
+     <label for="occupation">Occupation:</label><br>
+     <input type="text" name="occ" ><br>
+     <label for="relation">Relationship:</label><br>
+      <label for="family">Family</label>
+      <input type="radio" name="relation">
+      <label for="friend">Friend</label>
+      <input type="radio" name="relation"><br>
+      <label for="FormerBoss">Former Boss</label>
+      <input type="radio" name="relation"><br>
+      <label for="address">Address:</label><br>
+      <input type="text" name="addres"><br>
+     <label for="phone">Phone number*:</label><br>
+     <input type="tel" id="phone" name="phone"  value="+251" required><br>
+    </fieldset>
+</td> 
+     <td>
+     <fieldset>
+     <legend>Second Refree</legend>
+     <label for="name">Name:</label><br>
+     <input type="text" name="name"  ><br>
+     <label for="occupation">Occupation:</label><br>
+     <input type="text" name="occ" ><br>
+     <label for="relation">Relationship:</label><br>
+      <label for="family">Family</label>
+      <input type="radio" name="relation">
+      <label for="friend">Friend</label>
+      <input type="radio" name="relation"><br>
+      <label for="FormerBoss">Former Boss</label>
+      <input type="radio" name="relation"><br>
+      <label for="address">Address:</label><br>
+      <input type="text" name="addres"><br>
+      <label for="phone">Phone number*:</label><br>
+     <input type="tel" id="phone" name="phone"  value="+251" required><br>
+    </fieldset>
+    </td>
+
+
+</tr>
+</table>
+</body>
+</html>
