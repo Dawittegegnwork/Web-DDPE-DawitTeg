@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Feedback</title>
+
+</head>
+<body>
+<table width="100%">
+<tr>
+<td width="10%"></td>
+  <td align="right" >
+   				 <nav>
+					<a href="home.html">Home</a> |
+					<a href="job.html">Job</a> |
+					<a href="feedback.html">Feedback</a> |
+					<a href="reservation.html#reservation">Reservation</a> | 
+					<a href="reservation.html#pizza">Pizza Delivery</a>
+				</nav>
+  </td>
+<td width="10%"></td>
+</tr>
+</table>
+
+
+<table width="100%" >
+<tr>
+<td width="20%" valign="top"><svg width="160" height="160"><polygon points="80,10 20,148 150,60 10,60 120,148" fill="blueblack"stroke="lightgreen" stroke-width="5" fill-rule="nonzero"/></svg>
+			 </td>
+<hr size="1" color="skyblue">
+<td  >
+<h1 >Feedback Form</h1>
+  <form action="submit" method="GET">
+   
+     <label for="name">Name:</label><br>
+     <input type="text" id="name" name="name" maxlength="50" ><br>
+     <label for="email">Email:</label><br>
+     <input type="email" id="email" name="email" required><br>
+     Please check all the emotions that apply for you:
+     <ul>
+     <li><label for="angry">Angry:</label>
+      <input type="checkbox" name="angry" ><br> </li>
+     <li><label for="sad">Sad:</label>
+     <input type="checkbox" name="angry"><br></li>
+      <li><label for="happy">Happy:</label>
+     <input type="checkbox" name="angry" ><br></li>
+     <li><label for="ambivalent">Ambivalent:</label>
+     <input type="checkbox" name="angry" ><br></li>
+    </ul>
+     <details>
+     <summary>
+     How satisfied were you with our service?
+      </summary>
+      <ul>
+      <li><label for="very">Very satisfied:</label>
+      <input type="radio" name="very" ><br> </li>
+     <li><label for="very">Satisfied:</label>
+     <input type="radio" name="very" ><br></li>
+      <li><label for="very">Didn't care:</label>
+     <input type="radio" name="very" i><br></li>
+     <li><label for="very">Dissatisfied:</label>
+     <input type="radio" name="very" ><br></li>
+     <li><label for="very">Very Dissatisfied:</label>
+     <input type="radio" name="very" ><br></li>
+      </ul>
+        <label for="comments">Further comments:</label><br>
+     <textarea  name="comments" id="comments"></textarea><br>
+	</details>
+     <button type="submit">Submit</button>
+
+  
+</td>
+<td valign="top">
+					<svg width="100%" height="100">
+						<rect width="100%" height="100%" rx="15" ry="15" fill="dodgerblue"/>
+						<text x="50%" y="57%" fill="white" font-size="26"  text-anchor="middle">
+							SVG Logo
+						</text>
+					</svg>
+
+</td>
+</tr>
+</table>
+</body>
+</html>
