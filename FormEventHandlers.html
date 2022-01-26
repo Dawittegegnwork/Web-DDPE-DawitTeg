@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+</head>
+
+<body>
+    
+<h3>Register</h3>
+<form >
+Full Name
+<br>
+<input type="text" maxlength="50" size="50%" id="input1" onfocus="focusedevent()" onblur="bluredvent()" required >
+<br> 
+Phone
+<br>
+<input type="tel" size="50%" id="input2" onfocus="focUsevent()" onblur="bluRevent()" required>
+<br>
+Age
+<br>
+<input type="number" min="18" max="30" id="input3" onfocus="focusevent()" onblur="blurevent()" required>
+<br>
+Your Favourite Color
+<br>
+<input type="color">
+<br>
+Birthdate
+<br>
+<input type="date" placeholder="mm/dd/yyyy">
+<br>
+<p>
+	Modify the text in the input field, then click outside the field to fire the onchange event.
+</p>
+Enter some text: <input type="text" value="Hello" onchange="myFunction(this.value)">
+<script>
+<!--
+	function focusedevent()
+	{
+		document.getElementById("input1").style.background=" aqua";
+	}
+	function bluredvent()
+	{
+		document.getElementById("input1").style.background="";
+	
+	}
+
+	function focUsevent()
+	{
+		document.getElementById("input2").style.background="yellow";
+	}
+	function bluRevent()
+	{
+		document.getElementById("input2").style.background="";
+	
+	}
+
+	function focusevent()
+	{
+		document.getElementById("input3").style.background="red";
+	}
+	function blurevent()
+	{
+		document.getElementById("input3").style.background="";
+	
+	}
+	function myFunction(val)
+	{
+		alert("The input value has changed. The new value is: " + val);
+	}
+//-->
+</script>
+</body>
+</html>
